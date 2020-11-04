@@ -1,0 +1,45 @@
+#! /bin/sh
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+#polybar example &
+
+
+
+bspc config border_width         4
+bspc config focused_border_color "#FA74B2"
+bspc config normal_border_color "#282e3a"
+
+
+bspc config border_width         2
+bspc config window_gap          12
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a Chromium desktop='^2'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+
+
+
+# split desktops across multiple monitors, if there is one.
+bspc config remove_unplugged_monitors true
+if [[ $(bspc query -M | wc -l) -eq 2 ]]; then
+    bspc monitor eDP-1 -d 六 七 八 九 十
+    bspc monitor HDMI-2 -d 一 二 三 四 五 
+    # focus on external monitor to start
+    bspc monitor -f HDMI2
+    # bspc appears to allocate desktops on the internal first.  This messes up the numbering a bit
+    # so swap the monitors to have the desktop numbering match the roman numerals above.
+    bspc monitor HDMI2 -s eDP1
+    # from using arandr: set internal to be right of the external...
+    xrandr --output eDP-1 --primary --mode 1920x1080 --rotate normal --output HDMI-2 --mode 2560x1080 --rotate normal --left-of eDP-1
+else
+    bspc monitor -d 一 二 三 四 五 六 七 八 九 十
+fi
+
+feh --bg-center /home/lh/Pictures/Wallpapers/wallpaper4.jpg  
+/home/lh/.config/polybar/launch.sh &
