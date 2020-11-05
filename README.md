@@ -53,7 +53,8 @@ Here are my local dotfiles mainly including
 * polybar
 * spotify
 * beautifuldiscord
-* betterlockscreen
+* betterlockscreen (for 1 monitor) ( https://github.com/pavanjadhaw/betterlockscreen)
+* multilockscreen (for 2 monitors) (https://github.com/jeffmhubbard/multilockscreen)
 
 
 ## Setting the Shell

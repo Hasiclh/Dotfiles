@@ -17,7 +17,7 @@ super + Escape
 
 #lockscreen
 super + l
-	betterlockscreen -l dimblur   
+	 multilockscreen -l   
 
 #screenshot
 super + p
