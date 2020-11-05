@@ -12,48 +12,48 @@ Here are my local dotfiles mainly including
 
 ## List of programs
 ### Pacman
-xorg-server 
-xorg-xinit  
-xorg-apps 
-gvfs-mtp
-xf86-video-intel - para placas da Intel
-alsa-oss 
-alsa-lib
-pulseaudio 
-pavucontrol
-alsa-utils 
-lightdm 
-lightdm-gtk-greeter
-xdg-user-dirs
-acpi 
-acpid 
-xf86-input-libinput
-iwd
-git
-bspwm
-sxhkd
-urxvt (rxvt-unicode)
-rofi
-dunst
-zsh
-thunar
-opera
-discord
-telegram-desktop
-feh
-curl
-p7zip 
-unrar 
-tar 
-rsync 
-file-roller
-transmission-gtk
+* xorg-server 
+* xorg-xinit  
+* xorg-apps 
+* gvfs-mtp
+* xf86-video-intel - para placas da Intel
+* alsa-oss 
+* alsa-lib
+* pulseaudio 
+* pavucontrol
+* alsa-utils 
+* lightdm 
+* lightdm-gtk-greeter
+* xdg-user-dirs
+* acpi 
+* acpid 
+* xf86-input-libinput
+* iwd
+* git
+* bspwm
+* sxhkd
+* urxvt (rxvt-unicode)
+* rofi
+* dunst
+* zsh
+* thunar
+* opera
+* discord
+* telegram-desktop
+* feh
+* curl
+* p7zip 
+* unrar 
+* tar 
+* rsync 
+* file-roller
+* transmission-gtk
 
 ### AUR
-polybar
-spotify
-beautifuldiscord
-betterlockscreen
+* polybar
+* spotify
+* beautifuldiscord
+* betterlockscreen
 
 
 ## Setting the Shell
