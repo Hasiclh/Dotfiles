@@ -21,7 +21,8 @@ super + l
 
 #screenshot
 super + p
-	scrot '%Y-%m-%d-%H:%M:%S_screenshot.png' -e 'mv $f ~/Pictures/screenshots/'
+	flameshot gui -p ~/Pictures/screenshots/
+#	 scrot '%Y-%m-%d-%H:%M:%S_screenshot.png' -e 'mv $f ~/Pictures/screenshots/'
 
 #
 # bspwm hotkeys
