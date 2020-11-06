@@ -21,3 +21,11 @@
 # BSPWM
 <img src="/Pictures/screenshots/pok.png">
 
+# Rofi
+<img src="/Pictures/screenshots/rofi.png">
+
+# Dunst
+<img src="/Pictures/screenshots/dunst.png">
+
+
+
