@@ -1,73 +1,23 @@
-# Dotfiles
-
-Here are my local dotfiles mainly including
-
-* `bsp` as wm
-* `code` as editor
-* `urxvt` as terminal
-* `rofi` as dmenu replacement
-* `dunst` as notification deamon
-* `polybar` as status bar
-
-
-## List of programs
-### Pacman
-* xorg-server 
-* xorg-xinit  
-* xorg-apps 
-* gvfs-mtp
-* xf86-video-intel - para placas da Intel
-* alsa-oss 
-* alsa-lib
-* pulseaudio 
-* pavucontrol
-* alsa-utils 
-* lightdm 
-* lightdm-gtk-greeter
-* xdg-user-dirs
-* acpi 
-* acpid 
-* xf86-input-libinput
-* iwd
-* git
-* bspwm
-* sxhkd
-* urxvt (rxvt-unicode)
-* rofi
-* dunst
-* zsh
-* thunar
-* opera
-* discord
-* telegram-desktop
-* feh
-* curl
-* p7zip 
-* unrar 
-* tar 
-* rsync 
-* file-roller
-* transmission-gtk
-
-### AUR
-* polybar
-* spotify
-* beautifuldiscord
-* betterlockscreen (for 1 monitor) ( https://github.com/pavanjadhaw/betterlockscreen)
-* multilockscreen (for 2 monitors) (https://github.com/jeffmhubbard/multilockscreen)
+# ***`CURRENT SETUP:`***
+| Tipos               | Softwares                                                                                                                           |
+| :------------------ | :---------------------------------------------------------------------------------------------------------------------------------- |
+| Linux distribution        | [Arch Linux](https://wiki.archlinux.org/index.php/Installation_guide_(Portugu%C3%AAs))                                                                                            |                                                                                       
+| Window Manager  | [Bspwm](https://wiki.archlinux.org/index.php/bspwm)                                                                                             
+| Browser           | [Opera](https://wiki.archlinux.org/index.php/Opera_(Português))                                                                                |
+| Program Launcher | [Rofi](https://github.com/davatorium/rofi)                                                                                         |                                                                                        
+| Status Bar     | [Polybar](https://github.com/polybar/polybar)                                                                                         |     									    |                                					     	 	    
+| Music Player | [Spotify](https://wiki.archlinux.org/index.php/spotify)
+| Image viewer | [Feh](https://wiki.archlinux.org/index.php/feh)                                                                                                                                                                                             
+| Print Screen     | [Flameshot](https://github.com/lupoDharkael/flameshot)                                                                               |
+| Screen Recorder    | [OBS](https://obsproject.com)                                                                                                    
+| Terminal Emulator   | [URXVT](https://wiki.archlinux.org/index.php/rxvt-unicode)                                                                                 |
+| Shell               | [ZSH](https://wiki.archlinux.org/index.php/Zsh)                                                                                                         
+| Text editor     | [VScode](https://wiki.archlinux.org/index.php/Visual_Studio_Code)                                                    							    |
+| Monitor configuration    | [Xrandr](https://wiki.archlinux.org/index.php/Xrandr_(Português))                                                                               |
+| Lockscreen    | [Multilockscreen](https://github.com/jeffmhubbard/multilockscreen)                                                                                                  
+| Notification Daemon   | [Dunst](https://github.com/dunst-project/dunst)                                                                                    
 
 
-## Setting the Shell
-You might also want to set your shell to `zsh` if you have it installed:
-``` sh
-sudo usermod --shell /bin/zsh $USER
-```
-## Instaling oh-my-zsh
-``` sh
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
+# BSPWM
+<img src="/Pictures/screenshots/pok.png">
 
-## For instaling spotify you must need fix the GPG key issue by using:
-``` sh
-curl -sS https://download.spotify.com/debian/pubkey_0D811D58.gpg | gpg --import -
-```
